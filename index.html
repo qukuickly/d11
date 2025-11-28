@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - WhatsApp Now</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+        body{
+            background: 
+                linear-gradient(rgba(10,10,22,0.8), rgba(10,10,22,0.8)),
+                url('https://wallpapercave.com/wp/wp11306538.jpg') center/cover;
+            color:#fff;
+            min-height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:20px;
+        }
+        .container{
+            text-align:center;
+            padding:30px;
+            background:rgba(255,255,255,0.1);
+            border-radius:20px;
+            backdrop-filter:blur(10px);
+            border:1px solid rgba(255,255,255,0.2);
+        }
+        .logo{
+            width:120px;
+            height:120px;
+            border-radius:50%;
+            object-fit:cover;
+            border:3px solid #25D366;
+            margin-bottom:20px;
+            box-shadow:0 0 20px rgba(37,211,102,0.5);
+        }
+        .whatsapp-btn{
+            display:inline-block;
+            background:#25D366;
+            color:#fff;
+            text-decoration:none;
+            font-weight:bold;
+            border-radius:50px;
+            padding:20px 50px;
+            font-size:1.5rem;
+            box-shadow:0 10px 30px rgba(37,211,102,0.5);
+            transition:all 0.3s;
+            border:3px solid #fff;
+            animation:pulse 2s infinite;
+            margin-top:20px;
+        }
+        @keyframes pulse{
+            0%{transform:scale(1)}
+            50%{transform:scale(1.05)}
+            100%{transform:scale(1)}
+        }
+        .whatsapp-btn:hover{
+            transform:scale(1.1);
+            box-shadow:0 15px 40px rgba(37,211,102,0.7);
+        }
+        .title{
+            font-size:2rem;
+            margin-bottom:10px;
+            color:#25D366;
+        }
+        .subtitle{
+            font-size:1.1rem;
+            opacity:0.9;
+            margin-bottom:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://d1yei2z3i6k35z.cloudfront.net/13184094/690e03121fa5e_6084745465091001146.jpg" alt="Logo" class="logo">
+        <h1 class="title">WhatsApp Now</h1>
+        <p class="subtitle">Get in touch with us instantly</p>
+        <a href="https://wa.me/919760564690" class="whatsapp-btn">📱 WhatsApp Now</a>
+    </div>
+
+    <script>
+        // Preload background image for faster loading
+        document.addEventListener('DOMContentLoaded', function() {
+            const bgImage = new Image();
+            bgImage.src = 'https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/ce/55/97/ce559752-b8ef-d8de-14f8-d4fe1dd13edf/pr_source.png/643x0w.jpg';
+            
+            const logoImage = new Image();
+            logoImage.src = 'https://d1yei2z3i6k35z.cloudfront.net/13184094/690e03121fa5e_6084745465091001146.jpg';
+        });
+    </script>
+</body>
+</html>
